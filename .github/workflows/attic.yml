@@ -9,7 +9,7 @@ on:
 
 jobs:
   image:
-    uses: coreyja-studio/infra/.github/workflows/_attic-deploy.yml@main
+    uses: coreyja-studio/.github/.github/workflows/attic-deploy.yml@main
     with:
       app: penpals
     permissions:
